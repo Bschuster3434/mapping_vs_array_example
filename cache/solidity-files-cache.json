@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\Solidity Projects\\array_vs_mapping_test\\contracts\\array.sol": {
+      "lastModificationDate": 1645396633441,
+      "contentHash": "7a56c61770314a0e000965395a74fc23",
+      "sourceName": "contracts/array.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Array"
+      ]
+    },
+    "E:\\Solidity Projects\\array_vs_mapping_test\\contracts\\mapping.sol": {
+      "lastModificationDate": 1645396507649,
+      "contentHash": "f50a92c788deaf4da2d419c5f81d6e5d",
+      "sourceName": "contracts/mapping.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Mapping"
+      ]
+    }
+  }
+}

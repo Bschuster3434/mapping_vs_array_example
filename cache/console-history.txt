@@ -1,0 +1,304 @@
+await mapping.connect(deployer).didIRegister()
+await mapping.connect(deployer).removeRegistration();
+await array.connect(deployer).didIRegister();
+await mapping.connect(deployer).didIRegister()
+await array.connect(deployer).removeRegistration();
+await mapping.connect(deployer).didIRegister();
+await array.connect(deployer).didIRegister();
+await mapping.didIRegister();
+await mapping.connect(deployer).didIRegister();
+await array.connect(deployer).didIRegister();
+await mapping.connect(deployer).didIRegister();
+await array.connect(deployer).didIRegister();
+await mapping.connect(deployer).didIRegister();
+await array.connect(deployer).didIRegister();
+await mapping.connect(deployer).didIRegister();
+await array.connect(deployer).didIRegister();
+await mapping.connect(deployer).didIRegister();
+await array.connect(deployer).didIRegister();
+await mapping.connect(deployer).addVoter();
+await array.connect(deployer).addVoter();
+await mapping.connect(deployer).getTotalVoters();
+let mapping = new ethers.Contract(mappingContract, mappingABI, provider);
+  ]
+    }
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "removeRegistration",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "uint256"
+          "name": "",
+          "internalType": "uint256",
+        {
+      "outputs": [
+      "name": "getTotalVoters",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "bool"
+          "name": "",
+          "internalType": "bool",
+        {
+      "outputs": [
+      "name": "didIRegister",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "addVoter",
+      "inputs": [],
+    {
+let mappingABI = [
+let mappingContract = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+await array.connect(deployer).getTotalVoters();
+let array = new ethers.Contract(arrayContract, arrayABI, provider);
+let arrayContract = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  ]
+    }
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "removeRegistration",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "uint256"
+          "name": "",
+          "internalType": "uint256",
+        {
+      "outputs": [
+      "name": "getTotalVoters",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "bool"
+          "name": "",
+          "internalType": "bool",
+        {
+      "outputs": [
+      "name": "didIRegister",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "addVoter",
+      "inputs": [],
+    {
+let arrayABI = [
+const provider = ethers.getDefaultProvider();
+const [deployer] = await ethers.getSigners()
+const ethers = hre.ethers;
+const hre = require("hardhat");
+await array0.connect(runner).getTotalVoters();
+await mapping.connect(runner).getTotalVoters();
+await mapping.getTotalVoters();
+await array0.connect(runner).addVoter();
+await array.connect(runner).addVoter();
+await mapping.connect(runner).addVoter();
+await mapping.connect(runner).getTotalVoters();
+await mapping.getTotalVoters();
+let mapping = new ethers.Contract(mappingContract, mappingABI, provider)
+let mappingContract = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+  ]
+    }
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "uint256"
+          "name": "",
+          "internalType": "uint256",
+        {
+      "outputs": [
+      "name": "getTotalVoters",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "bool"
+          "name": "",
+          "internalType": "bool",
+        {
+      "outputs": [
+      "name": "didIVote",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "addVoter",
+      "inputs": [],
+    {
+let mappingABI = [
+await array0.connect(runner).didIVote();
+await array0.connect(runner).getTotalVoters();
+console.log(txAGTV);
+let txAGTV = await array0.connect(runner).getTotalVoters();
+await array0.connect(runner).getTotalVoters();
+await array0.getTotalVoters();
+let array0 = new ethers.Contract(arrayContract0, arrayABI, provider)
+let array = new ethers.Contract(arrayContract0, arrayABI, provider)
+let arrayContract0 = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+let arrayContract = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+let array = new ethers.Contract(arrayContract, arrayABI, provider)
+let arrayContract = 0x5FbDB2315678afecb367f032d93F642f64180aa3
+  ]
+    }
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "uint256"
+          "name": "",
+          "internalType": "uint256",
+        {
+      "outputs": [
+      "name": "getTotalVoters",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "bool"
+          "name": "",
+          "internalType": "bool",
+        {
+      "outputs": [
+      "name": "didIVote",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "addVoter",
+      "inputs": [],
+    {
+let arrayABI = [
+const provider = ethers.getDefaultProvider();
+const [runner] = await ethers.getSigners();
+const ethers = hre.ethers;
+const hre = require("hardhat");
+mapping
+deployer.address
+let array = new ethers.Contract(arrayAddress, arrayABI, provider);
+let provider = hardhat.ethers.getDefaultProvider();
+let arrayAddress = 0x5FbDB2315678afecb367f032d93F642f64180aa3
+  ]
+    }
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "uint256"
+          "name": "",
+          "internalType": "uint256",
+        {
+      "outputs": [
+      "name": "getTotalVoters",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "bool"
+          "name": "",
+          "internalType": "bool",
+        {
+      "outputs": [
+      "name": "didIVote",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "addVoter",
+      "inputs": [],
+    {
+let arrayABI = [
+  ]
+    }
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "uint256"
+          "name": "",
+          "internalType": "uint256",
+        {
+      "outputs": [
+      "name": "getTotalVoters",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "bool"
+          "name": "",
+          "internalType": "bool",
+        {
+      "outputs": [
+      "name": "didIVote",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "addVoter",
+      "inputs": [],
+    {
+let array abi = [
+ether
+const ethers = hardhat.ethers;
+const hardhat = require("hardhat")
+    const array = await ArrayFunction.deploy();
+    const ArrayFunction = await ethers.getContractFactory("Array");
+const Array = await ethers.getContractFactory("Array");
+    const provider = ethers.getDefaultProvider();
+const [deployer, ...addrs] = await ethers.getSigners();
+const ethers = hre.ethers;
+const hre = require("hardhat");
+const Array = await ethers.getContractFactory("Array");
+const [deployer, ...addrs] = await ethers.getSigners();
+const hardhat = require("hardhat")
+const [deployer, ...addrs] = await ethers.getSigners();
+const ethers = hre.ethers;
+const hre = require("hardhat");
+const [deployer, ...addrs] = await ethers.getSigners();
+const Array = await ethers.getContractFactory("Array");
+let tx = await array.getTotalVoters();
